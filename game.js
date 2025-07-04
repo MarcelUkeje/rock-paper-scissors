@@ -1,23 +1,16 @@
 function getComputerChoice() {
     let choice = Math.floor(Math.random() * 3);
 
-    switch (choice) {
-        case 0:
-            option = "rock";
-            break;
-
-        case 1:
-            option = "paper";
-            break;
-
-        case 2:
-            option = "scissors";
-    
+    if(choice === 0){
+        option = "rock";
+    }else if(choice === 1){
+        option = "paper";
+    }else {
+        option = "scissors";
     }
 
     return option;
 }
-
 
 function getHumanChoice() {
     let humanOption = prompt("Enter your option!");
@@ -79,14 +72,18 @@ function playRound(humanChoice=getHumanChoice(), computerChoice=getComputerChoic
             console.log("It's a tie!");
             break;
     }
-
     return (`Your score: ${humanScore}, Computer's score: ${computerScore}`);
-
 }
 
-console.log(playRound());
-console.log(playRound());
-console.log(playRound());
-console.log(playRound());
-console.log(playRound());
 
+function playGame(start){
+    if (start === true){
+        console.log(playRound());
+        console.log(playRound());
+        console.log(playRound());
+        console.log(playRound());
+        console.log(playRound());
+    }   
+}
+
+playGame(false)
