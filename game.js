@@ -86,4 +86,4 @@ function playGame(start){
     }   
 }
 
-playGame(false)
+playGame(true)
