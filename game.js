@@ -44,12 +44,13 @@ function playGame(){
         }
     }
     
-    for(let i = 0; i < 5; i++){
-        const humanChoice = getHumanChoice();
-        const computerChoice = getComputerChoice();
+    //Remove the logic that plays exactly 5 rounds
+    // for(let i = 0; i < 5; i++){
+    //     const humanChoice = getHumanChoice();
+    //     const computerChoice = getComputerChoice();
         
-        playRound(humanChoice, computerChoice);
-    }
+    //     playRound(humanChoice, computerChoice);
+    // }
 
     if (humanScore > computerScore){
          console.log(`You won! And you did that with ${humanScore} points against ${computerScore} points!`)
