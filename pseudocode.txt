@@ -1,0 +1,17 @@
+Create a loop that will run the number of times the user wants to play the game.
+
+prompt the user to enter the number of times they want to play and use that in the loop above.
+
+Randomly generate one of the three options for the computer and store it.
+
+Prompt the user for his option.
+
+Compare both choices and declare who wins.
+
+Then increment the score for either the computer or human as the case may be.
+
+
+
+//THIS IS AN ASIDE BUT I'LL REMEMBER TO SET UP MY VSCODE SO THAT FUNCTIONS HAVE THOSE TWO BRACKETS AT THEIR END WITHOUT ME HAVING TO PUT THEM THERE MYSELF.
+
+I'M DONE WITH THE GAME NOW BUT I NEED TO MAKE THE BUTTONS STOP CLICKING AFTER A PLAYER GETS TO 5.
