@@ -54,6 +54,9 @@ function playGame(){
     function checkWinner() {
         if (humanScore === 5 || computerScore === 5) {
             gameOver = true;
+            rock.disabled = true;
+            paper.disabled = true;
+            scissors.disabled = true;
             if (humanScore > computerScore) {
                 scoreBoard.textContent = `You won! Final score: Human ${humanScore}, Computer ${computerScore}`;
             } else {

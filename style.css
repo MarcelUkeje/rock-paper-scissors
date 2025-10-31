@@ -43,3 +43,8 @@ button {
     border-radius: 15%;
     border: solid 3px black;
 }
+
+button:disabled {
+    color: inherit;
+    background: inherit;
+}
